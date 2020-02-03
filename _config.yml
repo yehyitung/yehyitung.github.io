@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 米蟲工程師
+title: 米蟲，連米的懶得吃的蟲。
 subtitle:
 description:
 keywords: web developer and designer
@@ -73,9 +73,18 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: edinburgh
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  branch: master
+  repo: https://github.com/yehyitung/yehyitung.github.io.git
+# Header
+menu:
+  About: /about
+  Contact: /contact
+  Instagram: https://www.instagram.com
+  LinkedIn: https://www.linkedin.com
+  Facebook: https://www.facebook.com
